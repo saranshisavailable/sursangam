@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-black text-white box-border;
+  }
+}
+
+@layer components {
+  .bg-cool-x {
+    background-image: url("/public/assets/cool_x.png");
+  }
+}
+
+@font-face {
+  font-family: 'samarkan';
+  src: local('samarkan') url(../public/assets/fonts/SAMAN___/SAMAN___.TTF) format('ttf');
+}
